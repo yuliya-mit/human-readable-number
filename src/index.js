@@ -3,7 +3,7 @@ module.exports = function toReadable (number) {
     const arrNumber=strNumber.split('');
     console.log(arrNumber);
       const lenNumber=strNumber.length;
-      const arrWords= ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fiveteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']; 
+      const arrWords= ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']; 
     const decades=['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
     const hundred=['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
     let wordNumber=[];
